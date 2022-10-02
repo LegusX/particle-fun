@@ -27,7 +27,7 @@
 	const RED = new ParticleType("#f00", PARTICLESIZE);
 	rules.push(new Rule(RED, RED, -1));
 	// rules.push(new Rule(RED, RED, 0.5));
-	for (let i = 0; i < 10000; i++) {
+	for (let i = 0; i < 1000; i++) {
 		let particle = RED.createParticle();
 		particleContainer.addChild(particle);
 	}
